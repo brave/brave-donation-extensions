@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "React Content Script",
+  "version": "0.1",
+  "description": "React Content Script",
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/watch?v=*"],
+      "css": ["/static/css/main.css"],
+      "js": ["/static/js/main.js"]
+    }
+  ]
+}
